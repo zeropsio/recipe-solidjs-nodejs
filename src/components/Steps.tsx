@@ -2,7 +2,7 @@ import { Code } from "./Code";
 
 export function Steps() {
 const importyaml = `project:
-  name: recipe-solid
+  name: recipe-solidjs
   tags:
     - zerops-recipe
 
@@ -11,7 +11,7 @@ services:
     type: nodejs@20
     enableSubdomainAccess: true
     buildFromGit: https://github.com/zeropsio/recipe-solid-nodejs`.trim();
-  
+
 const zeropsyaml = `zerops:
   - setup: app
     build:

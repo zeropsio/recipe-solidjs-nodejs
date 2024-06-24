@@ -10,7 +10,7 @@ services:
   - hostname: app
     type: nodejs@20
     enableSubdomainAccess: true
-    buildFromGit: https://github.com/zeropsio/recipe-solid-nodejs`.trim();
+    buildFromGit: https://github.com/zeropsio/recipe-solidjs-nodejs`.trim();
 
 const zeropsyaml = `zerops:
   - setup: app

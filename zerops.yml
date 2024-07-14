@@ -4,7 +4,7 @@ zerops:
       base: nodejs@20
       buildCommands:
         - pnpm i
-        - pnpm run build
+        - pnpm build
       deployFiles:
         - .output
         - public

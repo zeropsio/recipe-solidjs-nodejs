@@ -1,6 +1,6 @@
 # Zerops x Solid - Node.js
 
-Solid is a declarative Javascript library for creating fast, dynamic web apps with server-side rendering. [Zerops](https://zerops.io) makes deploying and running Solid.js apps, both server side rendered and static, a breeze. This recipe showcases the SSR version, see [zeropsio/recipe-solidjs-static](https://github.com/zeropsio/recipe-solidjs-static) for the static version.
+Solid is a declarative Javascript library for creating fast, dynamic web apps. [Zerops](https://zerops.io) makes deploying and running Solid.js apps, both server side rendered and static, a breeze. This recipe showcases the SSR version, see [zeropsio/recipe-solidjs-static](https://github.com/zeropsio/recipe-solidjs-static) for the static version.
 
 ![solid](https://github.com/zeropsio/recipe-shared-assets/blob/main/covers/svg/cover-solid.svg)
 
@@ -16,7 +16,7 @@ You can either click the deploy button to deploy directly on Zerops, or manually
 
 ## Recipe features
 - Latest Solid version generated with [SolidStart](https://start.solidjs.com/) running on a load balanced **Zerops Node.js** service
-- Server Side Rendering (SSR) with Vinxi
+- Server Side Rendering (SSR) with Vinxi.
 
 <br/>
 

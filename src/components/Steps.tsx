@@ -21,6 +21,7 @@ const zeropsyaml = `zerops:
         - pnpm run build
       deployFiles:
         - .output
+        - public
         - node_modules
         - package.json
     run:

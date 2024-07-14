@@ -7,6 +7,7 @@ zerops:
         - pnpm run build
       deployFiles:
         - .output
+        - public
         - node_modules
         - package.json
     run:
@@ -15,9 +16,3 @@ zerops:
         - port: 3000
           httpSupport: true
       start: pnpm start
-
-# you can ignore this, it's used
-# for a version of recipe with
-# both static and ssr versions
-  - setup: ssrapp
-    extends: app

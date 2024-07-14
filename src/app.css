@@ -29,10 +29,10 @@ code {
   padding-bottom: 0.75rem;
   font-weight: 700;
   color: #fff;
+  transition: 300ms;
 }
 
 .deploybutton:hover {
-  transition: 300ms;
   background-color: #3cbdb2;
 }
 
